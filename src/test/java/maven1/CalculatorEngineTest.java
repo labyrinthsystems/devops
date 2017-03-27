@@ -6,12 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class CalculatorEngineTest {
-
-//	@Test
-//	public void test() {
-//		fail("Not yet implemented");
-//	}
-//	
+	
 	private CalculatorEngine calcEngine = new CalculatorEngine();
     //private CalculatorView calcView = new CalculatorView();
 
