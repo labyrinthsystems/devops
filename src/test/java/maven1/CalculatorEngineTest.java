@@ -17,7 +17,7 @@ public class CalculatorEngineTest {
 
     @Test
     public void testGetTotalStringInt() throws Exception {
-        calcEngine.currentTotal = 50000;
+        calcEngine.currentTotal = 50;
         assertEquals(50, calcEngine.currentTotal, 1e-6);
     }
 
