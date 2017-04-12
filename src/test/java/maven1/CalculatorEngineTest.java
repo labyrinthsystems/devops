@@ -15,12 +15,12 @@ public class CalculatorEngineTest {
         calcEngine.currentTotal = 0;
     }
 
-//    @Test
-//    public void testGetTotalStringInt() throws Exception {
-//        calcEngine.currentTotal = 50;
-//        assertEquals(50, calcEngine.currentTotal, 1e-6);
-//    }
-//
+    @Test
+    public void testGetTotalStringInt() throws Exception {
+        calcEngine.currentTotal = 50;
+        assertEquals(50, calcEngine.currentTotal, 1e-6);
+    }
+
 //    @Test
 //    public void testEqual() throws Exception {
 //        calcEngine.equal("20");
