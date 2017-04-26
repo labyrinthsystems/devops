@@ -63,7 +63,7 @@ public class CalculatorEngineTest {
     public void testDivide() throws Exception {
         calcEngine.add(10);
         calcEngine.divide(10);
-        assertEquals(1, calcEngine.currentTotal, 1.0);
+        assertEquals(12, calcEngine.currentTotal, 1.0);
     }
 
 }
