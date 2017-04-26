@@ -4,8 +4,8 @@ import javax.swing.*;
 public class Calculator {
 	public static void main(String[] args) {
 
-		SwingUtilities.invokeLater(CalculatorView::new);
-		//SwingUtilities.invokeNOW!!!(CalculatorView::new);
+		//SwingUtilities.invokeLater(CalculatorView::new);
+		SwingUtilities.invokeNOW!!!(CalculatorView::new);
 
 	}
 }
