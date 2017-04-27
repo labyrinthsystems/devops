@@ -122,23 +122,23 @@ public class CalculatorView extends JFrame {
 				startNumber = true;
 				try {
 					String displayText = display.getText();
-					switch (prevOperation) {
-					case "=":
-						engine.equal(displayText);
-						break;
-					case "+":
-						engine.add(displayText);
-						break;
-					case "-":
-						engine.subtract(displayText);
-						break;
-					case "/":
-						engine.divide(displayText);
-						break;
-					case "*":
-						engine.multiply(displayText);
-						break;
-					}
+//					switch (prevOperation) {
+//					case "=":
+//						engine.equal(displayText);
+//						break;
+//					case "+":
+//						engine.add(displayText);
+//						break;
+//					case "-":
+//						engine.subtract(displayText);
+//						break;
+//					case "/":
+//						engine.divide(displayText);
+//						break;
+//					case "*":
+//						engine.multiply(displayText);
+//						break;
+//					}
 					display.setText(engine.getTotalString());
 				} catch (NumberFormatException ex) {
 					actionClear();
