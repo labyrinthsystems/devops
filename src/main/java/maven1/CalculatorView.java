@@ -121,7 +121,7 @@ public class CalculatorView extends JFrame {
 			} else {
 				startNumber = true;
 				try {
-					String displayText = display.getText();
+//					String displayText = display.getText();
 //					switch (prevOperation) {
 //					case "=":
 //						engine.equal(displayText);
@@ -139,7 +139,7 @@ public class CalculatorView extends JFrame {
 //						engine.multiply(displayText);
 //						break;
 //					}
-					display.setText(engine.getTotalString());
+//					display.setText(engine.getTotalString());
 				} catch (NumberFormatException ex) {
 					actionClear();
 				}
